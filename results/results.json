@@ -1,0 +1,40 @@
+{
+  "result": {
+    "overall_fertility": "Medium",
+    "probabilities": { "high": 0.3, "medium": 0.6, "low": 0.1 },
+    "regions": {
+      "north": {
+        "fertility": "High",
+        "reasons": ["High vegetation factor", "Good soil quality"]
+      },
+      "south": {
+        "fertility": "Medium",
+        "reasons": ["Moderate vegetation factor", "Average soil quality"]
+      },
+      "east": {
+        "fertility": "Low",
+        "reasons": [
+          "Lower vegetation factor",
+          "Poor soil quality",
+          "Coastal erosion"
+        ]
+      },
+      "west": {
+        "fertility": "Medium",
+        "reasons": ["Moderate vegetation factor", "Average soil quality"]
+      }
+    },
+    "suggestions": {
+      "best_crops": ["Rice", "Millets", "Pulses"],
+      "mixed_crop_farming": "Yes"
+    }
+  },
+  "location": "Southern India & Sri Lanka",
+  "analysis": "The image shows a varied fertility across the region. Northern areas exhibit high fertility due to lush vegetation and good soil, while eastern coastal regions show low fertility because of lower vegetation and poor soil quality. Southern and Western regions show moderate fertility.",
+  "bounding_boxes": {
+    "north": [10, 10, 100, 100, 100, 10, 10, 10],
+    "south": [10, 200, 100, 200, 100, 300, 10, 300],
+    "east": [100, 100, 200, 100, 200, 300, 100, 300],
+    "west": [10, 100, 10, 300, 50, 300, 50, 100]
+  }
+}

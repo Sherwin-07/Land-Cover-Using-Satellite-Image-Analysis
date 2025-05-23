@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 76px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom utility classes */
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+.border-dashed {
+  border-style: dashed !important;
+}
+
+.rounded-4 {
+  border-radius: 0.75rem !important;
+}
+
+.rounded-top-4 {
+  border-top-left-radius: 0.75rem !important;
+  border-top-right-radius: 0.75rem !important;
+}
+
+/* Custom color adjustments */
+.bg-success {
+  background-color: #2ecc71 !important;
+}
+
+.btn-success {
+  background-color: #2ecc71 !important;
+  border-color: #2ecc71 !important;
+}
+
+.text-success {
+  color: #2ecc71 !important;
+}
+
+/* Link hover effects */
+.nav-link {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.nav-link:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #2ecc71;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover:after,
+.nav-link.active:after {
+  width: 80%;
+  left: 10%;
+}
+
+/* Animated elements */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Button hover effects */
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #27ae60 !important;
+  border-color: #27ae60 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(46, 204, 113, 0.3) !important;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(13, 110, 253, 0.3) !important;
+}
+
+/* Form elements */
+.form-control:focus {
+  border-color: #2ecc71;
+  box-shadow: 0 0 0 0.25rem rgba(46, 204, 113, 0.25);
+}

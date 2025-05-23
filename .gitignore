@@ -1,0 +1,18 @@
+# Python (Flask backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+*.h5
+*.pkl
+
+# Node (React frontend)
+node_modules/
+build/
+dist/
+
+# OS/IDE junk
+.DS_Store
+*.swp
+*.log

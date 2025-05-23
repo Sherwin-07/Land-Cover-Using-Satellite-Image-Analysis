@@ -1,0 +1,9 @@
+requests
+flask
+flask_cors
+pillow
+matplotlib
+scikit-learn
+numpy
+pandas
+rasterio

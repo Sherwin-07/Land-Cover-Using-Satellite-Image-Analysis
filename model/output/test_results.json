@@ -1,0 +1,266 @@
+{
+  "assam.tiff": {
+    "result": {
+      "overall_fertility": "Medium",
+      "probabilities": { "high": 0.25, "medium": 0.6, "low": 0.15 },
+      "regions": {
+        "north": {
+          "fertility": "Medium",
+          "reasons": ["Moderate vegetation cover", "Varied soil composition"]
+        },
+        "south": {
+          "fertility": "Low",
+          "reasons": ["Sparse vegetation", "Possible soil erosion"]
+        },
+        "east": {
+          "fertility": "Medium",
+          "reasons": ["Moderate vegetation cover", "Presence of water bodies"]
+        },
+        "west": {
+          "fertility": "Medium",
+          "reasons": ["Moderate vegetation density", "Relatively flat terrain"]
+        }
+      },
+      "suggestions": {
+        "best_crops": ["Sorghum", "Millet", "Beans"],
+        "mixed_crop_farming": "Yes"
+      }
+    },
+    "location": "Approximate location not available, image lacks sufficient geographical markers.",
+    "analysis": "The image shows a landscape with a mix of vegetation density and soil types.  Northern and Eastern sections show moderate fertility, while the south shows lower fertility due to sparse vegetation.  The presence of water bodies in the east may indicate higher soil moisture.  Overall, the land exhibits moderate fertility potential.",
+    "bounding_boxes": {
+      "north": [10, 10, 100, 100, 100, 10, 10, 10],
+      "south": [10, 200, 100, 200, 100, 210, 10, 210],
+      "east": [200, 10, 200, 100, 210, 100, 210, 10],
+      "west": [10, 10, 10, 100, 0, 100, 0, 10]
+    }
+  },
+  "chennai.tiff": {
+    "error": "Invalid Input",
+    "message": "The provided image is not a valid satellite terrain image for fertility analysis.  The image primarily shows a coastal region with water and a limited area of land suitable for detailed fertility assessment."
+  },
+  "E06_OCM_GAC_08JAN2025_008064816062_11194_STGOVFHND_58_14_F.tiff": {
+    "result": {
+      "overall_fertility": "Medium",
+      "probabilities": { "high": 0.25, "medium": 0.6, "low": 0.15 },
+      "regions": {
+        "north": {
+          "fertility": "Medium",
+          "reasons": [
+            "Moderate vegetation density observed",
+            "Presence of areas with potentially low soil moisture"
+          ]
+        },
+        "south": {
+          "fertility": "Medium",
+          "reasons": [
+            "Moderate vegetation cover",
+            "Presence of coastal areas with potential salinity issues"
+          ]
+        },
+        "east": {
+          "fertility": "Low",
+          "reasons": [
+            "Sparse vegetation in some areas",
+            "Potentially low soil moisture content"
+          ]
+        },
+        "west": {
+          "fertility": "Medium",
+          "reasons": [
+            "Moderate vegetation density",
+            "Presence of water bodies which could improve soil moisture levels in specific areas"
+          ]
+        }
+      },
+      "suggestions": {
+        "best_crops": ["Sorghum", "Millet", "Beans"],
+        "mixed_crop_farming": "Yes"
+      }
+    },
+    "location": "Sri Lanka and the Southeastern tip of India",
+    "analysis": "The image shows a mix of vegetation density and soil conditions across Sri Lanka and parts of Southeastern India.  Some areas exhibit moderate vegetation cover, suggesting medium fertility.  Other areas have sparse vegetation, indicating lower fertility. Coastal regions might face salinity challenges. Water bodies seem to be present, improving fertility in limited regions. ",
+    "bounding_boxes": {
+      "north": [10, 10, 100, 100, 10, 200, 100, 200],
+      "south": [10, 200, 100, 300, 10, 400, 100, 400],
+      "east": [100, 10, 200, 100, 100, 200, 200, 200],
+      "west": [0, 10, 10, 100, 0, 200, 10, 200]
+    }
+  },
+  "haryana.tiff": {
+    "result": {
+      "overall_fertility": "Medium",
+      "probabilities": { "high": 0.2, "medium": 0.6, "low": 0.2 },
+      "regions": {
+        "north": {
+          "fertility": "Medium",
+          "reasons": [
+            "Moderate vegetation density",
+            "Presence of some bare patches"
+          ]
+        },
+        "south": {
+          "fertility": "Medium",
+          "reasons": [
+            "Moderate vegetation density",
+            "Presence of some bare patches"
+          ]
+        },
+        "east": {
+          "fertility": "Low",
+          "reasons": ["Sparse vegetation", "Possible signs of erosion"]
+        },
+        "west": {
+          "fertility": "Medium",
+          "reasons": [
+            "Moderate vegetation cover",
+            "Some areas with denser vegetation"
+          ]
+        }
+      },
+      "suggestions": {
+        "best_crops": ["Wheat", "Barley", "Soybeans"],
+        "mixed_crop_farming": "Yes"
+      }
+    },
+    "location": "Approximate location undetermined, requires more geographical data.",
+    "analysis": "The image shows a predominantly medium fertility area with variations across regions.  Vegetation density is moderate in most areas, with patches of sparse vegetation and some bare soil visible. The eastern region shows signs of lower fertility possibly due to erosion or less favorable conditions.  Further analysis requires higher resolution imagery and ground truth data.",
+    "bounding_boxes": {
+      "north": [10, 10, 100, 100, 100, 10, 10, 10],
+      "south": [10, 190, 100, 190, 100, 200, 10, 200],
+      "east": [190, 10, 200, 10, 200, 200, 190, 200],
+      "west": [10, 100, 10, 190, 100, 190, 100, 100]
+    }
+  },
+  "jaipur.tiff": {
+    "result": {
+      "overall_fertility": "Medium",
+      "probabilities": { "high": 0.25, "medium": 0.6, "low": 0.15 },
+      "regions": {
+        "north": {
+          "fertility": "Low",
+          "reasons": [
+            "Sparse vegetation detected",
+            "Soil appears dry and less fertile"
+          ]
+        },
+        "south": {
+          "fertility": "Medium",
+          "reasons": [
+            "Moderate vegetation cover",
+            "Presence of some water bodies"
+          ]
+        },
+        "east": {
+          "fertility": "Medium",
+          "reasons": [
+            "Moderate vegetation density",
+            "Soil appears moderately moist"
+          ]
+        },
+        "west": {
+          "fertility": "Low",
+          "reasons": ["Sparse vegetation", "Potentially rocky terrain"]
+        }
+      },
+      "suggestions": {
+        "best_crops": ["Sorghum", "Millet"],
+        "mixed_crop_farming": "Yes"
+      }
+    },
+    "location": "Approximate location needed -  image doesn't provide geographic coordinates.",
+    "analysis": "The image shows a varied landscape.  The northern region appears less fertile due to sparse vegetation and dry soil. The south and east show moderate fertility with moderate vegetation and some water sources. The west also appears less fertile with sparse vegetation and potential rocky terrain. Overall, the land presents medium fertility potential.",
+    "bounding_boxes": {
+      "north": [10, 10, 100, 100, 100, 10, 10, 10],
+      "south": [10, 200, 100, 200, 100, 300, 10, 300],
+      "east": [200, 100, 300, 100, 300, 200, 200, 200],
+      "west": [10, 150, 50, 150, 50, 250, 10, 250]
+    }
+  },
+  "jaipur2.tiff": {
+    "result": {
+      "overall_fertility": "Medium",
+      "probabilities": { "high": 0.25, "medium": 0.6, "low": 0.15 },
+      "regions": {
+        "north": {
+          "fertility": "Low",
+          "reasons": ["Sparse vegetation detected", "Presence of rocky terrain"]
+        },
+        "south": {
+          "fertility": "Medium",
+          "reasons": [
+            "Moderate vegetation cover",
+            "Presence of some water bodies"
+          ]
+        },
+        "east": {
+          "fertility": "Medium",
+          "reasons": [
+            "Mixed vegetation patterns",
+            "Slightly higher soil moisture content"
+          ]
+        },
+        "west": {
+          "fertility": "Low",
+          "reasons": ["Sparse vegetation", "Possible signs of soil erosion"]
+        }
+      },
+      "suggestions": {
+        "best_crops": ["Sorghum", "Millet"],
+        "mixed_crop_farming": "Yes"
+      }
+    },
+    "location": "Approximate location needed - cannot be determined from image alone",
+    "analysis": "The image shows a mixed terrain with varying vegetation density.  Northern and western regions appear less fertile due to sparse vegetation and rocky terrain. Southern and eastern areas exhibit moderate fertility, potentially due to slightly better moisture conditions and more vegetation.  Overall, the land shows potential for farming, particularly drought-resistant crops.",
+    "bounding_boxes": {
+      "north": [10, 10, 100, 100, 100, 10, 10, 10],
+      "south": [10, 200, 100, 200, 100, 210, 10, 210],
+      "east": [200, 100, 210, 100, 210, 200, 200, 200],
+      "west": [10, 100, 20, 100, 20, 200, 10, 200]
+    }
+  },
+  "madurai.tiff": "```json\n{\n  \"result\": {\n    \"overall_fertility\": \"Medium\",\n    \"probabilities\": {\n      \"high\": 0.25,\n      \"medium\": 0.6,\n      \"low\": 0.15\n    },\n    \"regions\": {\n      \"north\": {\n        \"fertility\": \"Medium\",\n        \"reasons\": [\"Moderate vegetation cover\", \"Varied soil color suggesting moderate nutrient levels\"]\n      },\n      \"south\": {\n        \"fertility\": \"Low\",\n        \"reasons\": [\"Sparse vegetation\", \"Presence of rocky terrain\", \"Proximity to coastal area with potential for salinity\"]\n      },\n      \"east\": {\n        \"fertility\": \"Medium\",\n        \"reasons\": [\"Moderate vegetation density\", \"Soil appears relatively dry\"]\n      },\n      \"west\": {\n        \"fertility\": \"Medium\",\n        \"reasons\": [\"Patches of dense vegetation interspersed with areas of sparse cover\", \"Some areas show signs of soil erosion\"]\n      }\n    },\n    \"suggestions\": {\n      \"best_crops\": [\"Sorghum\", \"Millet\", \"Beans\"],\n      \"mixed_crop_farming\": \"Yes\"\n    }\n  },\n  \"location\": \"Approximate location needed - Unable to determine precise location from image alone.\",\n  \"analysis\": \"The image shows a landscape with a mix of vegetation density.  Soil color varies, suggesting differences in nutrient content and moisture levels across the area.  Some regions show signs of sparse vegetation and rocky terrain indicative of lower fertility.  The presence of a coastal area in the south suggests potential salinity issues influencing fertility. Overall, the area demonstrates moderate fertility potential with some regions exhibiting low fertility.\",\n  \"bounding_boxes\": {\n    \"north\": [10, 10, 100, 100, 100, 10, 10, 10],\n    \"south\": [100, 100, 200, 200, 200, 100, 100, 100],\n    \"east\": [200, 10, 300, 100, 300, 10, 200, 10],\n    \"west\": [10, 100, 100, 200, 100, 100, 10, 100]\n  }\n}\n```\n\n**Note:**  The bounding box coordinates are placeholders.  Accurate coordinates would require image processing tools capable of identifying and defining the geographical regions (north, south, east, west) within the given image.  The approximate location also requires additional geospatial information not provided.  The analysis is based on visual interpretation of the provided satellite image.\n",
+  "madurai_2.tiff": "```json\n{\n  \"result\": {\n    \"overall_fertility\": \"Medium\",\n    \"probabilities\": {\n      \"high\": 0.25,\n      \"medium\": 0.6,\n      \"low\": 0.15\n    },\n    \"regions\": {\n      \"north\": {\n        \"fertility\": \"Low\",\n        \"reasons\": [\"Sparse vegetation\", \"Light soil color indicates low organic matter\"]\n      },\n      \"south\": {\n        \"fertility\": \"Medium\",\n        \"reasons\": [\"Moderate vegetation density\", \"Varied soil color suggests moderate nutrient content\"]\n      },\n      \"east\": {\n        \"fertility\": \"Low\",\n        \"reasons\": [\"Sparse vegetation\", \"Presence of bare soil patches\"]\n      },\n      \"west\": {\n        \"fertility\": \"Medium\",\n        \"reasons\": [\"Moderate vegetation cover\", \"Slightly darker soil tones\"]\n      }\n    },\n    \"suggestions\": {\n      \"best_crops\": [\"Sorghum\", \"Millet\"],\n      \"mixed_crop_farming\": \"Yes\"\n    }\n  },\n  \"location\": \"Approximate location needed; requires geographic coordinates not provided with image.\",\n  \"analysis\": \"The image shows a landscape with varied vegetation density and soil conditions.  The northern and eastern parts appear less fertile due to sparse vegetation and light soil color. The southern and western areas show moderate fertility, indicated by a denser vegetation cover and slightly darker soil tones. The overall fertility is assessed as medium.\",\n  \"bounding_boxes\": {\n    \"north\": [10, 10, 100, 100, 100, 10, 10, 10],\n    \"south\": [10, 100, 100, 200, 100, 100, 10, 100],\n    \"east\": [100, 10, 200, 100, 200, 10, 100, 10],\n    \"west\": [10, 10, 10, 100, 100, 100, 100, 10]\n  }\n}\n```\n\n**Disclaimer:** The bounding boxes are placeholders.  Accurate bounding boxes require image analysis tools and the actual pixel coordinates within the image.  The location is also a placeholder as geographic context is missing from the input.  The analysis and fertility assessment are based on visual interpretation of the provided image and may not be perfectly accurate without additional data.\n",
+  "vegetation_factor.jpg": {
+    "result": {
+      "overall_fertility": "Medium",
+      "probabilities": { "high": 0.25, "medium": 0.6, "low": 0.15 },
+      "regions": {
+        "north": {
+          "fertility": "Medium",
+          "reasons": [
+            "Moderate vegetation cover",
+            "Varied soil moisture content"
+          ]
+        },
+        "south": {
+          "fertility": "Low",
+          "reasons": ["Sparse vegetation", "Potentially low soil moisture"]
+        },
+        "east": {
+          "fertility": "Medium",
+          "reasons": ["Moderate vegetation cover", "Presence of coastal areas"]
+        },
+        "west": {
+          "fertility": "High",
+          "reasons": [
+            "Dense vegetation in parts",
+            "Potentially high soil moisture"
+          ]
+        }
+      },
+      "suggestions": {
+        "best_crops": ["Millets", "Sorghum", "Groundnuts"],
+        "mixed_crop_farming": "Yes"
+      }
+    },
+    "location": "Southern India and Sri Lanka",
+    "analysis": "The image shows a region with varying land fertility. Northern and eastern parts display moderate fertility, while the west shows areas of high fertility due to denser vegetation. The southern region shows low fertility likely due to sparse vegetation and lower soil moisture. Coastal areas influence soil moisture and vegetation distribution.",
+    "bounding_boxes": {
+      "north": [10, 10, 100, 100, 100, 10, 10, 10],
+      "south": [10, 100, 100, 100, 100, 200, 10, 200],
+      "east": [100, 10, 200, 100, 200, 10, 100, 10],
+      "west": [10, 10, 10, 200, 100, 200, 100, 10]
+    }
+  }
+}
